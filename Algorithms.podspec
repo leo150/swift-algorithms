@@ -18,7 +18,5 @@ Pod::Spec.new do |s|
   s.author           = { 'leo150' => '' }
   s.source           = { :git => 'https://github.com/leo150/Algorithms.git', :tag => s.version.to_s }
 
-  s.source_files = 'Sources/Algorithms/*'
-
-  s.dependency 'RealModule'
+  s.source_files = 'Sources/**/*'
 end
